@@ -28,12 +28,8 @@ git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM
 echo "\n---------- OK ----------\n"
 
 echo "\n---------- 向 ~/.zshrc 文件追加配置 ----------\n"
-echo "source ~/.local/config/setup-scripts/.zshrc" >> ~/.zshrc
+echo "source ~/.local/config/setup-scripts/zshrc" >> ~/.zshrc
 echo "\n---------- OK ----------\n"
-
-#echo "\n---------- 重新加载 .zshrc 文件 ----------\n"
-#source ~/.zshrc
-#echo "\n---------- OK ----------\n"
 
 echo "\n---------- 初始化完成，切换到 zsh ----------\n"
 read -p "按 Enter 进入 zsh :" var
