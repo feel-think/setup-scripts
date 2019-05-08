@@ -109,6 +109,7 @@ alias ll="ls -lhF"
 alias la="ls -alhF"
 
 export TERM=xterm-256color
+export LANG=zh_CN.UTF-8
 
 # save every command before it is executed
 setopt inc_append_history
