@@ -103,6 +103,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# alias
+alias l="ls -F"
+alias ll="ls -lhF"
+alias la="ls -alhF"
+
 export TERM=xterm-256color
 
 # save every command before it is executed
