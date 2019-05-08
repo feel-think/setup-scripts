@@ -3,6 +3,8 @@ echo "\n---------- 安装基础工具 ----------\n"
 apt update
 apt install -y sudo vim curl wget git
 
+git config --global core.editor vim
+
 # 安装 zsh
 echo "\n---------- 安装 zsh ----------\n"
 sudo apt install -y zsh
