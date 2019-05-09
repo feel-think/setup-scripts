@@ -124,3 +124,6 @@ setopt hist_ignore_all_dups
 tksv='tmux kill-server'
 # 杀掉默认新建的 session
 tkss0='tmux kill-session -t 0'
+
+# 安装常用命令行工具
+#sh ~/.local/config/setup-scripts/install_tools.sh
