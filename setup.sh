@@ -39,7 +39,9 @@ echo "source ~/.local/config/setup-scripts/tmux.conf" >> ~/.tmux.conf
 
 # 安装 tmux 插件
 PRINT "安装 tmux 插件"
-sh ~/.tmux/plugins/tpm/bin/install_plugins
+cd ~/.tmux/plugins/tpm/bin/
+sh install_plugins
+cd ~
 
 # 配置 vim
 echo "source ~/.local/config/setup-scripts/vimrc" >> ~/.vimrc
