@@ -12,7 +12,8 @@ sudo apt install -y zsh
 
 # 安装 Oh My Zsh
 echo "\n---------- 安装 Oh My Zsh ----------\n"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sed '/\s*env\s\s*zsh\s*/d')" \
+export RUNZSH=no
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # 安装 zsh 插件
 echo "\n---------- 安装 zsh-autosuggestions 插件 ----------\n"
@@ -44,5 +45,4 @@ echo "source ~/.local/config/setup-scripts/vimrc" >> ~/.vimrc
 
 echo "\n---------- 初始化完成，切换到 zsh ----------\n"
 read -p "按 Enter 进入新环境:" var
-env zsh -l
-
+exec zsh -l
