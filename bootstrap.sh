@@ -1,5 +1,9 @@
+#!/bin/sh
+
+. ./tools.sh
+
 # 安装基础工具
-echo "\n---------- 安装基础工具 ----------\n"
+PRINT "安装基础工具"
 apt update
 apt install -y sudo vim curl wget git
 

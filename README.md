@@ -6,7 +6,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/feel-think/setup-scripts/m
 ```
 
 待实现功能：
-- [ ] 优化输出的提示信息
+- [x] 优化输出的提示信息
 - [ ] 自适应不同 Linux 发行版
 - [ ] 实现增量配置
 - [ ] 实现更新配置功能
