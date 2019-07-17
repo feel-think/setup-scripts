@@ -1,6 +1,6 @@
 #!/bin/sh
 
-. ./tools.sh
+. ~/.local/config/setup-scripts/tools.sh
 
 # 配置 vim 为 git 的默认编辑器
 git config --global core.editor vim
